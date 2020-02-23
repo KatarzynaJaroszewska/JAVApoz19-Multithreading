@@ -17,6 +17,6 @@ public class Main {
         //        executorService.submit(new LoggingRunnable());
         //        executorService.submit(new LoggingCallable());
 
-        executorService.shutdown();
+        executorService.shutdown(); //jeśli nie zamkniemy, aplikacja będzie "wisieć"
     }
 }
